@@ -1,0 +1,10 @@
+create table "Entity"
+(
+    id_employee integer generated always as identity,
+    name varchar(255),
+    manager varchar(255),
+    salary integer,
+    name_subdivision varchar(255),
+    departmentCityLocation varchar(255),
+    categoryETS integer
+);
