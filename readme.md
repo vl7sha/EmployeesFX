@@ -2,13 +2,13 @@
 
 ## Image application
 ### Title
-<img src="img_readme/1.png"  alt="title image"/>
+<p><img src="img_readme/1.png"  alt="title image" width="70%"></p>
 
 ### Add employee
-<img src="img_readme/2.png" alt="add employee image">
+<p><img src="img_readme/2.png" alt="add employee image" width="70%"></p>
 
 ### List employees and action delete, search employee
-<img src="img_readme/3.png" alt="list employees">
+<p><img src="img_readme/3.png" alt="list employees" width="70%"></p>
 
 ## Use technologist:
 - java 11
