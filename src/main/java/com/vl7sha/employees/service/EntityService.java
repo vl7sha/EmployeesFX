@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EntityService extends Util {// логика с бд получ по айди, добавление, удаление
+public class EntityService extends Util {
 
     public List<Entity> getAll() throws SQLException {
         List<Entity> entityList = new ArrayList<>();
