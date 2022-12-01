@@ -14,7 +14,6 @@ public class ViewSwitcher {
         ViewSwitcher.scene = scene;
     }
 
-    // метод меняющий сцену
     public static void switchTo(View view){
 
         if(scene == null){

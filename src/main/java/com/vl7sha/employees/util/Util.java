@@ -1,11 +1,11 @@
-package com.vl7sha.employees.util;//подключение к бд
+package com.vl7sha.employees.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Util {
-    private static final String DB_DRIVER = "";
+    private static final String DB_DRIVER = "org.postgresql.Driver";
     private static final String DB_URL = "";
     private static final String DB_USERNAME = "";
     private static final String DB_PASSWORD = "";

@@ -1,7 +1,7 @@
-package com.vl7sha.employees.model;// сущность для работы с бд
+package com.vl7sha.employees.model;
 
 public class Entity {
-    //cущности
+
     private int idEmployee;
     private String name;
     private String manager;
@@ -13,7 +13,7 @@ public class Entity {
     public Entity() {
     }
 
-    public Entity(int idEmployee, String name, String manager,// конструктор
+    public Entity(int idEmployee, String name, String manager,
                   double salary, String nameSubdivision, String departmentCityLocation, int categoryETS) {
         this.idEmployee = idEmployee;
         this.name = name;

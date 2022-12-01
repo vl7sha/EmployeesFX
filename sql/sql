@@ -6,5 +6,5 @@ create table "Entity"
     salary integer,
     name_subdivision varchar(255),
     departmentCityLocation varchar(255),
-    categoryETS integer
+    category integer
 );

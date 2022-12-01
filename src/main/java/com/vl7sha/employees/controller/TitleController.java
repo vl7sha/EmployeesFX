@@ -1,10 +1,10 @@
-package com.vl7sha.employees.controller;//
+package com.vl7sha.employees.controller;
 
 import com.vl7sha.employees.View;
 import com.vl7sha.employees.ViewSwitcher;
 import javafx.event.ActionEvent;
 
-public class TitleController {// титульная страница кнопик перехода на страницы
+public class TitleController {
 
 
     public void onPageAdd(ActionEvent actionEvent) {

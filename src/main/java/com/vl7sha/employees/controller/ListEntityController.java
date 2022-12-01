@@ -15,7 +15,7 @@ import java.net.URL;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
 
-public class ListEntityController  implements Initializable {// вывод всех сотрудников и по поику
+public class ListEntityController  implements Initializable {
     private final EntityService entityService = new EntityService();
 
     public TableView<Entity> table;
@@ -42,7 +42,7 @@ public class ListEntityController  implements Initializable {// вывод вс�
       try {
           ObservableList<Entity> entities = FXCollections.observableList(entityService.getAll());
 
-          idcolnm.setCellValueFactory(new PropertyValueFactory<Entity,Integer>("idEmployee"));// парсинг в нужную ячейку
+          idcolnm.setCellValueFactory(new PropertyValueFactory<Entity,Integer>("idEmployee"));
           namecolnm.setCellValueFactory(new PropertyValueFactory<Entity,String>("name"));
           managercolnm.setCellValueFactory(new PropertyValueFactory<Entity,String>("manager"));
           salarycolnm.setCellValueFactory(new PropertyValueFactory<Entity,Double>("salary"));

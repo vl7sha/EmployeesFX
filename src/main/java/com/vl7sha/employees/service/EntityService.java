@@ -27,7 +27,7 @@ public class EntityService extends Util {// логика с бд получ по
                 entity.setSalary(resultSet.getDouble("salary"));
                 entity.setNameSubdivision(resultSet.getString("name_subdivision"));
                 entity.setDepartmentCityLocation(resultSet.getString("department_city_location"));
-                entity.setCategoryETS(resultSet.getInt("categoryets"));
+                entity.setCategoryETS(resultSet.getInt("category"));
 
                 entityList.add(entity);
             }
@@ -52,7 +52,7 @@ public class EntityService extends Util {// логика с бд получ по
                 entity.setSalary(resultSet.getDouble("salary"));
                 entity.setNameSubdivision(resultSet.getString("name_subdivision"));
                 entity.setDepartmentCityLocation(resultSet.getString("department_city_location"));
-                entity.setCategoryETS(resultSet.getInt("categoryets"));
+                entity.setCategoryETS(resultSet.getInt("category"));
             }
         }
         return entity;

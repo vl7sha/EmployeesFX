@@ -10,8 +10,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
-public class AddEntityController {// добавление
-    private Entity entity;//поля с которых берем информацию
+public class AddEntityController {
+    private Entity entity;
     private EntityService entityService;
     public Label name;
     public TextField txtname;
